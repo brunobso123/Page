@@ -138,6 +138,13 @@
     justify-content: center;
     border: 2px solid #000;
     flex-direction: column;
+    color: #000;
+    transition: background-color 0.5s ease, color 0.5s ease, transform 0.5s ease;
+  }
+  .card-container:hover {
+    background-color: #ac1e36;
+    color: white;
+    transform: scale(1.1);
   }
   .media {
     display: flex;
@@ -150,6 +157,12 @@
   .contato {
     width: 35px;
     height: 35px;
+    color: #000;
+    transition: background-color 0.5s ease, color 0.5s ease, transform 0.5s ease;
+  }
+  .contato:hover {
+    color: white;
+    transform: scale(1.1);
   }
   .footer {
     padding-top: 10px;
@@ -164,5 +177,18 @@
 @media (max-width: 405px) {
   .card-container {
     width: 150px;
+  }
+  .card-container:hover {
+    background-color: #ac1e36;
+    color: white;
+    transform: scale(1.1);
+  }
+  .contato {
+    color: #000;
+    transition: background-color 0.5s ease, color 0.5s ease, transform 0.5s ease;
+  }
+  .contato:hover {
+    color: white;
+    transform: scale(1.1);
   }
 }
