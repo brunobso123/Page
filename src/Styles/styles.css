@@ -38,6 +38,13 @@
   justify-content: center;
   border: 1px solid #000;
   flex-direction: column;
+  color: #000;
+  transition: background-color 0.5s ease, color 0.5s ease, transform 0.5s ease;
+}
+.card-container:hover {
+  background-color: #ac1e36;
+  color: white;
+  transform: scale(1.1);
 }
 .logo {
   width: 150px;
@@ -70,6 +77,12 @@
 .contato {
   width: 41px;
   height: 41px;
+  color: #000;
+  transition: background-color 0.5s ease, color 0.5s ease, transform 0.5s ease;
+}
+.contato:hover {
+  color: white;
+  transform: scale(1.1);
 }
 @media (max-width: 1070px) {
   .card-container {
