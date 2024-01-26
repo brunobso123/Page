@@ -1,6 +1,7 @@
 * {
   margin: 0;
   border: none;
+  text-decoration: none;
   box-sizing: border-box;
   font-family: "Roboto", sans-serif;
 }
@@ -21,29 +22,31 @@
   background-color: #f0f0f0;
 }
 .container {
+  gap: 22px;
   width: 100%;
   height: 527px;
   display: flex;
-  gap: 22px;
-  background-color: #f0f0f0;
   align-items: center;
+  text-decoration: none;
   justify-content: center;
+  background-color: #f0f0f0;
 }
 .card-container {
   width: 330px;
   height: 284px;
-  border-radius: 15px;
   display: flex;
+  color: #000;
   align-items: center;
+  border-radius: 15px;
   justify-content: center;
   border: 1px solid #000;
   flex-direction: column;
-  color: #000;
   transition: background-color 0.5s ease, color 0.5s ease, transform 0.5s ease;
 }
+
 .card-container:hover {
-  background-color: #ac1e36;
   color: white;
+  background-color: #ac1e36;
   transform: scale(1.1);
 }
 .logo {
@@ -53,26 +56,26 @@
   flex-direction: column;
 }
 #nome {
-  padding-bottom: 12px;
   font-size: 15px;
+  padding-bottom: 12px;
 }
 .footer {
-  padding-top: 10px;
+  gap: 22px;
   width: 100%;
   height: 216px;
-  background-color: #ac1e36;
   display: flex;
+  padding-top: 10px;
   align-items: center;
   flex-direction: column;
-  gap: 22px;
+  background-color: #ac1e36;
 }
 .media {
-  display: flex;
-  width: 365px;
-  height: 62px;
-  padding: 10px 67px 11px 67px;
-  justify-content: center;
   gap: 54px;
+  height: 62px;
+  width: 365px;
+  display: flex;
+  justify-content: center;
+  padding: 10px 67px 11px 67px;
 }
 .contato {
   width: 41px;
@@ -132,8 +135,8 @@
   .card-container {
     width: 200px;
     height: 100%;
-    border-radius: 15px;
     display: flex;
+    border-radius: 15px;
     align-items: center;
     justify-content: center;
     border: 2px solid #000;
@@ -142,9 +145,9 @@
     transition: background-color 0.5s ease, color 0.5s ease, transform 0.5s ease;
   }
   .card-container:hover {
-    background-color: #ac1e36;
     color: white;
     transform: scale(1.1);
+    background-color: #ac1e36;
   }
   .media {
     display: flex;
@@ -165,23 +168,24 @@
     transform: scale(1.1);
   }
   .footer {
-    padding-top: 10px;
+    gap: 22px;
     width: 100%;
-    background-color: #ac1e36;
     display: flex;
+    padding-top: 10px;
     align-items: center;
     flex-direction: column;
-    gap: 22px;
+    background-color: #ac1e36;
   }
 }
 @media (max-width: 405px) {
   .card-container {
     width: 150px;
+    text-decoration: none;
   }
   .card-container:hover {
-    background-color: #ac1e36;
     color: white;
     transform: scale(1.1);
+    background-color: #ac1e36;
   }
   .contato {
     color: #000;
